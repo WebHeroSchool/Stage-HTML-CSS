@@ -1,5 +1,78 @@
 body
  {
+   border: dashed 1px red;
+   margin: auto;
    font-family: Roboto;
-   color: red;
  }
+
+.wrapper
+{
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 201px;
+  border: dashed 1px red;
+}
+
+.logo, .menu
+{
+  display: inline-block;
+  border:dashed 1px red;
+}
+
+.logo
+{
+  padding: 40px 0 40px 44px;
+}
+
+.menu
+{
+  display: flex;
+  align-items: center;
+  width: 435px;
+}
+
+.menu__item
+{
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+
+.menu__item:last-child
+{
+  padding-right: 0;
+}
+.main
+{
+  padding: 0 1268px 250px 0;
+  border: dashed 1px red;
+}
+
+.main__title
+{
+ margin: 0 0 37px 0;
+ border: dashed 1px red;
+}
+
+.main__subtitle
+{
+  width: 450px;
+  height: 45px;
+  margin: 0 0 44px 0;
+  border: dashed 1px red;
+}
+
+.main__button
+{
+  display: inline-block;
+  width: 232px;
+  height: 22px;
+  padding: 18px 20px;
+  border: dashed 1px red;
+}
