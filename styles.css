@@ -30,6 +30,7 @@ body
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/32px "pt_serif", arial, helvetica, sans-serif;
+<<<<<<< Updated upstream
 }
 
 .logo__circle
@@ -55,6 +56,8 @@ background: #0056EC;
 left: 8px;
 top: 56%;
 background: #C8DBFB;
+=======
+>>>>>>> Stashed changes
 }
 
 .menu
