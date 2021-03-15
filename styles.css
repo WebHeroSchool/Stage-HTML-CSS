@@ -7,7 +7,6 @@ body
 {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
 
 .header
@@ -15,13 +14,11 @@ body
   display: flex;
   justify-content: space-between;
   margin-bottom: 201px;
-  border: dashed 1px red;
 }
 
 .logo, .menu
 {
   display: inline-block;
-  border:dashed 1px red;
 }
 
 .logo
@@ -30,7 +27,6 @@ body
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/32px "pt_serif", arial, helvetica, sans-serif;
-<<<<<<< Updated upstream
 }
 
 .logo__circle
@@ -43,7 +39,6 @@ body
   height: 28px;
   border-radius: 50%;
   opacity: .7;
-  border: dashed 1px red;
 }
 
 .logo__circle_color_dark-blue
@@ -53,11 +48,9 @@ background: #0056EC;
 
 .logo__circle_color_blue
 {
-left: 8px;
-top: 56%;
-background: #C8DBFB;
-=======
->>>>>>> Stashed changes
+ left: 8px;
+ top: 56%;
+ background: #C8DBFB;
 }
 
 .menu
@@ -71,7 +64,6 @@ background: #C8DBFB;
 {
   padding: 0 13px;
   font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
-  border: dashed 1px red;
 }
 
 .menu__item:last-child
@@ -81,14 +73,12 @@ background: #C8DBFB;
 .main
 {
   padding: 0 1268px 250px 0;
-  border: dashed 1px red;
 }
 
 .main__title
 {
  margin: 0 0 37px 0;
  font: 700 66px/87px "pt_serif", arial, helvetica, sans-serif;
- border: dashed 1px red;
 }
 
 .main__subtitle
@@ -97,7 +87,6 @@ background: #C8DBFB;
   height: 45px;
   margin: 0 0 44px 0;
   font: normal 22px/26px "Roboto", arial, helvetica, sans-serif;
-  border: dashed 1px red;
 }
 
 .main__button
@@ -107,5 +96,4 @@ background: #C8DBFB;
   height: 22px;
   padding: 18px 20px;
   font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
-  border: dashed 1px red;
 }
