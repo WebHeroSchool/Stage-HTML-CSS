@@ -1,5 +1,99 @@
 body
  {
-   font-family: Roboto;
-   color: red;
+   margin: auto;
  }
+
+.wrapper
+{
+  margin: auto;
+  width: 80%;
+}
+
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 201px;
+}
+
+.logo, .menu
+{
+  display: inline-block;
+}
+
+.logo
+{
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/32px "pt_serif", arial, helvetica, sans-serif;
+}
+
+.logo__circle
+{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo__circle_color_dark-blue
+{
+background: #0056EC;
+}
+
+.logo__circle_color_blue
+{
+ left: 8px;
+ top: 56%;
+ background: #C8DBFB;
+}
+
+.menu
+{
+  display: flex;
+  align-items: center;
+  width: 435px;
+}
+
+.menu__item
+{
+  padding: 0 13px;
+  font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+}
+
+.menu__item:last-child
+{
+  padding-right: 0;
+}
+.main
+{
+  padding: 0 1268px 250px 0;
+}
+
+.main__title
+{
+ margin: 0 0 37px 0;
+ font: 700 66px/87px "pt_serif", arial, helvetica, sans-serif;
+}
+
+.main__subtitle
+{
+  width: 450px;
+  height: 45px;
+  margin: 0 0 44px 0;
+  font: normal 22px/26px "Roboto", arial, helvetica, sans-serif;
+}
+
+.main__button
+{
+  display: inline-block;
+  width: 232px;
+  height: 22px;
+  padding: 18px 20px;
+  font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+}
